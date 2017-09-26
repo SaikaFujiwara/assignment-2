@@ -1,0 +1,204 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body, html {
+	height: 100%;
+	background-color: #fff;
+}
+
+header {
+	
+}
+
+.background-image {
+	position : relative;
+	width: 100%;
+}
+
+.hero-image {
+	position: relative;
+	width: 100%;
+}
+
+.hero-image img {
+	width: 100%;
+	height: 100%
+}
+
+.navbar {
+	
+}
+
+.navbar img {
+	margin: 27px 50px;
+	width: 110px;
+}
+
+.navbar ul {
+	margin: 25px 57px;
+	font-weight: bold;
+	font-size: 23px;
+}
+
+.navbar li {
+	margin: 0 14px;
+}
+
+header h1 {
+	position: absolute;
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	top: 32%;
+	font-family: Lato;
+	font-weight: 300;
+	font-size: 118px;
+	letter-spacing: 5px;
+}
+
+header p {
+	position: absolute;
+	color: #fff;
+	font-family: Lato;
+	font-size: 50px;
+	font-weight: 100;
+	right: 32%;
+	bottom: 36%;
+}
+
+ul {
+	list-style: none;
+	float: right;
+}
+
+li {
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;	
+	color: #000;
+	font-family: Helvetica;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #9d9693;
+}
+
+
+.contents {
+	margin: 0 auto;
+}
+
+.content1 {
+	position: relative;
+}
+
+.content1 img {
+	width: 100%;
+	height: 800px;	
+}
+
+.content1 .title {
+	font-family: Lato;
+	position: absolute;
+	margin-left: 52px;
+	top: 217px;
+	color: #fff;
+	font-size: 40px;
+	line-height: 60px;
+	letter-spacing: 3.5px;
+}
+
+.content1 .text {
+	position: absolute;
+	font-family: Helvetica;
+	top: 407px;
+	color: #fff;
+	font-size: 20px;
+	margin-left: 52px;
+	letter-spacing: 2.5px;
+	color: #fff;
+	line-height: 30px;
+}
+
+.content1 .phone-image {
+	position: absolute;
+	width: 500px;
+	height: 700px;	
+	top: 50px;
+	right: 50px;
+	/*background-attachment: fixed;*/
+}
+
+.content2 {
+	background-color: #f6f6f6;
+	width: 100%;
+}
+
+.content2 ul {
+	float: left;
+	padding: 20px;
+	margin-left: 230px;
+}
+
+.content2 li {
+	margin: 0 50px;
+}
+
+.content3 {
+	margin: auto;
+}
+
+.content3 h1 {
+	margin-left: 570px;	
+}
+
+.content3 img {
+	float: left;
+	margin-left: 150px;
+}
+
+.content3 div {
+	float: right;
+	margin-right: 150px;
+}
+
+.content4 {
+	background-color: #f6f6f6;
+	margin: auto;
+
+	}
+
+.content4 h1 {
+	margin-left: 570px;
+}
+
+.content4 ul {
+	float: left;
+	margin-left: 100px;
+}
+
+.content6 {
+	background-color: #f6f6f6;
+}
+
+footer {
+	background-color: #333333;
+	clear: both;
+}
+
+footer p {
+	color: #fff;
+	float: left;
+	font-family: Helvetica;
+	font-size: 14px;
+	text-align: left;	
+}
+
+footer img {
+	margin-right: 10px;
+}
