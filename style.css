@@ -282,6 +282,10 @@ a:hover {
 	letter-spacing: 2.4px;
 }
 
+.content4 a {
+	text-decoration: none;
+}
+
 .content4 hr {
 	background-color: #cccccc;
 	width: 1080px;
@@ -290,9 +294,13 @@ a:hover {
 }
 
 .content5 {
-	margin-top: 70px;
-	margin-bottom: 85px;
+	margin: 70px 0;
 	text-align: center;
+}
+
+.content5 .companies {
+	margin-right: 5px;
+	margin: 7px 32px;
 }
 
 .content6 {
