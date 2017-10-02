@@ -282,9 +282,9 @@ a:hover {
 	letter-spacing: 2.4px;
 }
 
-.content4 a {
+/*.content4 a {
 	text-decoration: none;
-}
+}*/
 
 .content4 hr {
 	background-color: #cccccc;
@@ -305,6 +305,88 @@ a:hover {
 
 .content6 {
 	background-color: #f6f6f6;
+	padding: 80px 170px;
+	height: 200px;
+}
+
+input[type="text"] {
+	border-style: solid;
+	border-width: 2px;
+	border-color:  #cccccc;
+	box-sizing: border-box;
+	background-color:  #ffffff;
+	width: 500px;
+	height: 60px;
+	margin-bottom: 30px;
+	padding-left: 18px;
+	font-family: Helvetica;
+	color:  #dddddd;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 80px;
+	text-align: left;
+	letter-spacing: 2px;
+}
+
+select {
+	border-style: solid;
+	border-width: 2px;
+	border-color:  #cccccc;
+	box-sizing: border-box;
+	background-color:  #ffffff;
+	width: 500px;
+	height: 60px;
+	font-family: Helvetica;
+	color:  #333333;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 80px;
+	text-align: left;
+	letter-spacing: 2px;
+}
+
+textarea {
+	border-style: solid;
+	border-width: 2px;
+	border-color:  #cccccc;
+	box-sizing: border-box;
+	background-color:  #ffffff;
+	width: 540px;
+	height: 150px;
+	font-family: Helvetica;
+	color:  #dddddd;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 55px;
+	text-align: left;
+	padding-left: 20px;
+	letter-spacing: 2px;
+}
+
+.input-wrapper {
+	clear: right;
+	display: inline;
+	float: left;
+}
+
+.textarea-button-wrapper {
+	float: right;
+	margin-right: 15px;
+}
+
+input[type="submit"] {
+	background-color:  #333333;
+	box-shadow: 3px 5px 0px 0px rgba(51, 51, 51, 0.25);
+	width: 540px;
+	height: 60px;
+	margin-top: 22px;
+	padding-top: 5px;
+	padding-left: 7px;
+	font-family: Helvetica;
+	color:  #ffffff;
+	font-size: 20px;
+	font-weight: 300;
+	letter-spacing: 2px;
 }
 
 footer {
