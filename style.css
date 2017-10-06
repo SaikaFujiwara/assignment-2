@@ -1,6 +1,7 @@
 * {
 	padding: 0;
 	margin: 0;
+	box-sizing: border-box;
 }
 
 body, html {
@@ -8,70 +9,67 @@ body, html {
 	background-color: #fff;
 }
 
+body {
+	width: 100%;
+	min-width: 1080px;
+}
+
 header {
 	
 }
 
-.background-image {
-	position : relative;
+.hero-image {
 	width: 100%;
 	height: 800px;
 }
 
-.hero-image {
+.hero {
 	position: relative;
 	width: 100%;
 }
 
-.hero-image img {
+.hero-text-wrapper {
+	position: absolute;
+	top: 50%;
+	text-align: center;
+}
+
+.hero-title {
+	color: #fff;
 	width: 100%;
-	height: 100%
+	font-family: Lato;
+	font-weight: 300;
+	font-size: 160px;
+	letter-spacing: 10px;	
+}
+
+.hero-text {
+	color: #fff;
+	font-family: Lato;
+	font-size: 60px;
+	font-weight: 200;
+	line-height: 80px;
+	letter-spacing: 3px;
 }
 
 .navbar {
 	clear: both;
 }
 
-.navbar img {
-	margin: 27px 167px;
+.logo {
+	margin: 30px 0;
 	width: 110px;
 }
 
-.navbar ul {
-	margin: 30px 157px;
-	font-weight: 500;
+.navbar-list {
+	margin: 30px 0;
 	font-size: 22px;
 	float: right;
 	font-family: Helvetica;
-	
 }
 
-.navbar li {
+.nav-list-item {
 	margin-right: 40px;
-}
-
-header h1 {
-	position: absolute;
-	color: #fff;
-	width: 100%;
-	text-align: center;
-	top: 32%;
-	font-family: Lato;
-	font-weight: 300;
-	font-size: 160px;
-	letter-spacing: 10px;
-}
-
-header p {
-	position: absolute;
-	color: #fff;
-	font-family: Lato;
-	font-size: 60px;
-	font-weight: 200;
-	right: 32%;
-	bottom: 37%;
-	line-height: 80px;
-	letter-spacing: 3px;
 }
 
 ul {
@@ -102,24 +100,27 @@ a:hover {
 	width: 1080px;
 	margin: 0 auto;
 	padding: 0 50px;
-	text-align: center;
 	overflow: hidden;
 	clear: both;
+	min-width: 1080px;
 }
 
 .content1 {
 	position: relative;
+	background-image: url(./images/background2.jpg);
 }
 
-/*.content1-wrapper {
-	position: absolute;
-	right: 50px;
-}*/
-
-.content1-text-wrapper {
-	position: absolute;
-	top: 211px;
+.content1-inner {
+	font-size: 0;
+	letter-spacing: 0;
 }
+
+.content1-inner-item {
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+}
+
 
 .content1 .title {
 	font-family: Lato;
@@ -140,7 +141,6 @@ a:hover {
 }
 
 .phone-image {
-	position: absolute;
 	width: 500px;
 	height: 735px;	
 	top: 33px;
@@ -166,14 +166,14 @@ a:hover {
 
 }
 
-.content2 ul {
+.content2-list-wrapper {
 	padding-top: 175px;
-	padding-bottom: 72px;
+	text-align: center;
 }
 
-.content2 li {
-	margin: 0 35px;
-	width: 280px;
+.content2-list-item {
+	padding-right: 55px;
+
 }
 
 .content2 .text {
@@ -206,7 +206,7 @@ a:hover {
 	float: left;
 }
 
-.content3 .text {
+.content3-text-wrpper {
 	float: right;
 	margin-top: 115px;
 }
@@ -244,12 +244,12 @@ a:hover {
 	letter-spacing: 3px;
 }
 
-.content4 ul {
+.content4-list-wrapper {
 	margin-top: 30px;
 	padding-bottom: 74px;
 }
 
-.content4 li {
+.content4-list-item {
 	margin-bottom: 4px;
 	clear: both;
 }
@@ -302,14 +302,14 @@ a:hover {
 }
 
 .companies {
-	margin-right: 45px;
+	margin-right: 22px;
 }
 
 .content6 {
 	background-color: #f6f6f6;
-	padding: 80px 170px;
+	padding-top: 80px;
 	padding-bottom: 120px;
-	height: 200px;
+	overflow: hidden;
 }
 
 input[type="text"] {
@@ -318,15 +318,13 @@ input[type="text"] {
 	border-color:  #cccccc;
 	box-sizing: border-box;
 	background-color:  #ffffff;
-	width: 500px;
+	width: 470px;
 	height: 60px;
 	margin-bottom: 30px;
-	padding-left: 18px;
+	padding-left: 20px;
 	font-family: Helvetica;
 	color:  #dddddd;
 	font-size: 20px;
-	font-weight: 300;
-	line-height: 80px;
 	text-align: left;
 	letter-spacing: 2px;
 }
@@ -339,16 +337,14 @@ select {
 	border-radius: 0;
 	-webkit-appearance: button;
 	background-color:  #ffffff;
-	width: 500px;
+	width: 470px;
 	height: 60px;
 	font-family: Helvetica;
 	color:  #333333;
 	font-size: 20px;
-	font-weight: 500;
-	line-height: 60px;
 	text-align: left;
 	letter-spacing: 2px;
-	padding-left: 17px;
+	padding-left: 20px;
 }
 
 textarea {
@@ -357,15 +353,14 @@ textarea {
 	border-color:  #cccccc;
 	box-sizing: border-box;
 	background-color:  #ffffff;
-	width: 540px;
+	width: 510px;
 	height: 150px;
 	font-family: Helvetica;
 	color:  #dddddd;
 	font-size: 20px;
-	font-weight: 300;
-	line-height: 55px;
 	text-align: left;
 	padding-left: 20px;
+	padding-top: 15px;
 	letter-spacing: 2px;
 }
 
@@ -377,12 +372,13 @@ textarea {
 
 .textarea-button-wrapper {
 	float: right;
+	width: 463px;
 }
 
 input[type="submit"] {
 	background-color:  #333333;
 	box-shadow: 3px 5px 0px 0px rgba(51, 51, 51, 0.25);
-	width: 540px;
+	width: 510px;
 	height: 60px;
 	margin-top: 22px;
 	padding-top: 5px;
@@ -397,9 +393,8 @@ input[type="submit"] {
 footer {
 	background-color: #333333;
 	clear: both;
-	height: 20px;
-	padding: 17px 52px;
-	padding-bottom: 35px;	
+	height: 70px;
+	padding-top: 15px;	
 }
 
 footer p {
