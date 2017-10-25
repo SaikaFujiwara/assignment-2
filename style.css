@@ -47,21 +47,21 @@ header {
 	letter-spacing: 7px;
 }
 
-.navbar {
-	clear: both;
-}
-
-.logo {
+.l-header-logo {
 	margin: 30px 0;
 	width: 110px;
 }
 
-.navbar-list {
+.l-header-nav{
+	float: right;
+}
+
+.nav-list {
 	margin: 33px 50px;
 	float: right;
 }
 
-.nav-list-item {
+.nav-item {
 	margin-left: 30px;
 	font-size: 20.23px;
 	font-family: Helvetica;
@@ -393,7 +393,7 @@ input[type="submit"] {
 	letter-spacing: 2px;
 }
 
-footer {
+.l-footer {
 	background-color: #333333;
 	clear: both;
 	height: 70px;
@@ -408,12 +408,12 @@ footer p {
 	margin-top: 10px;	
 }
 
-.sns-wrapper {
+.l-footer-inner {
 	display: inline;
 	float: right;
 	padding-top: 10px;
 }
 
-.sns-icon {
+.l-footer-item {
 	margin: -4px 9px;
 }
