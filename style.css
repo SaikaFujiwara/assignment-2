@@ -101,28 +101,28 @@ a:hover {
 	min-width: 1080px;
 }
 
-.content1 {
+.eyecatch {
 	position: relative;
 	background-image: url(./images/background2.jpg);
 }
 
-.content1-inner {
+.eyecatch-inner {
 	font-size: 0;
 	letter-spacing: 0;
 }
 
-.content1-inner-item {
+.eyecatch-inner-item {
 	width: 50%;
 	display: inline-block;
 	vertical-align: top;
 }
 
-.content1-inner-item content1-text-wrapper {
+.eyecatch-inner-item {
 	padding-right: 20px;
 }
 
 
-.content1 .title {
+.eyecatch-inner-title {
 	font-family: Lato;
 	color: #fff;
 	font-size: 40px;
@@ -130,7 +130,7 @@ a:hover {
 	letter-spacing: 3.5px;
 }
 
-.content1 .text {
+.eyecatch-inner-text {
 	font-family: Helvetica;
 	color: #fff;
 	font-size: 20px;
@@ -140,7 +140,7 @@ a:hover {
 	padding-top: 70px;
 }
 
-.phone-image {
+.eyecatch-inner-image {
 	width: 500px;
 	height: 735px;	
 	top: 33px;
